@@ -3,7 +3,7 @@ public class Assignment {
     private double y;
     private double result;
 
-    public void  x(double x,double y){
+    public void  xy(double x,double y){
         this.x=x;
         this.y=y;
 

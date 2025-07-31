@@ -15,7 +15,7 @@ public class Main{
         double x=scanner.nextInt();
         System.out.print("Enter y of value: ");
         double y = scanner.nextInt();
-        assignment.x(x,y);
+        assignment.xy(x,y);
         assignment.check();
     }
 }
