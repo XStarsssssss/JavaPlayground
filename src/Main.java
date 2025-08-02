@@ -8,14 +8,23 @@ public class Main{
 //        Formula formula = new Formula();
 //        formula.area(bases,hight);
 //        formula.check();
-
-
-        Assignment assignment = new Assignment();
-        System.out.print("Enter x of value: ");
-        double x=scanner.nextInt();
-        System.out.print("Enter y of value: ");
-        double y = scanner.nextInt();
-        assignment.xy(x,y);
-        assignment.check();
+        //Assignment
+//        Assignment assignment = new Assignment();
+//        System.out.print("Enter x of value: ");
+//        double x=scanner.nextInt();
+//        System.out.print("Enter y of value: ");
+//        double y = scanner.nextInt();
+//        assignment.xy(x,y);
+//        assignment.check();
+        //Assignment1
+        System.out.print("Enter Username: ");
+        String username = scanner.nextLine();
+        System.out.print("Enter Email: ");
+        String email = scanner.nextLine();
+        System.out.print("Enter Password: ");
+        String password = scanner.nextLine();
+        Assignment1 assignment1 = new Assignment1();
+        assignment1.account(username,email,password);
+        assignment1.checkall();
     }
 }
