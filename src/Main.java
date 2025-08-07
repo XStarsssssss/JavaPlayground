@@ -17,14 +17,16 @@ public class Main{
 //        assignment.xy(x,y);
 //        assignment.check();
         //Assignment1
-        System.out.print("Enter Username: ");
-        String username = scanner.nextLine();
-        System.out.print("Enter Email: ");
-        String email = scanner.nextLine();
-        System.out.print("Enter Password: ");
-        String password = scanner.nextLine();
-        Assignment1 assignment1 = new Assignment1();
-        assignment1.account(username,email,password);
-        assignment1.checkall();
+//        System.out.print("Enter Username: ");
+//        String username = scanner.nextLine();
+//        System.out.print("Enter Email: ");
+//        String email = scanner.nextLine();
+//        System.out.print("Enter Password: ");
+//        String password = scanner.nextLine();
+//        Assignment1 assignment1 = new Assignment1();
+//        assignment1.account(username,email,password);
+//        assignment1.checkall();
+        Lyrics lyrics = new Lyrics();
+        lyrics.PrintLyrics();
     }
 }
