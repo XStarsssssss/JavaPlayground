@@ -26,7 +26,9 @@ public class Main{
 //        Assignment1 assignment1 = new Assignment1();
 //        assignment1.account(username,email,password);
 //        assignment1.checkall();
-        Lyrics lyrics = new Lyrics();
-        lyrics.PrintLyrics();
+//        Lyrics lyrics = new Lyrics();
+//        lyrics.PrintLyrics();
+        StudentsAcc acc = new StudentsAcc();
+        acc.Acc();
     }
 }
