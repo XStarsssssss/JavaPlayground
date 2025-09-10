@@ -28,7 +28,13 @@ public class Main{
 //        assignment1.checkall();
 //        Lyrics lyrics = new Lyrics();
 //        lyrics.PrintLyrics();
-        StudentsAcc acc = new StudentsAcc();
-        acc.Acc();
+//        StudentsAcc acc = new StudentsAcc();
+//        acc.Acc();
+        int salary = scanner.nextInt();
+        int extrahourpayrate = scanner.nextInt();
+        int extrahour = scanner.nextInt();
+        Empoyee em = new Empoyee(salary,extrahourpayrate,extrahour);
+        em.calculateTotalSalary();
+        em.result();
     }
 }
